@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Imaging = "*", Typography = "*"}
+
+[Project]
+Name = "Engine"
+TargetType = "BeefLib"
+StartupObject = "Engine.Program"

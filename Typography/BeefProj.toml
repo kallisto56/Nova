@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Imaging = "*"}
+
+[Project]
+Name = "Typography"
+TargetType = "BeefLib"
+StartupObject = "Typography.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/lib/stb_truetype.lib"]

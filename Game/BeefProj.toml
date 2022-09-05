@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Engine = "*", OpenGLPlatform = "*"}
+
+[Project]
+Name = "Game"
+StartupObject = "Game.Program"

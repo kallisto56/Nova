@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Engine = "*", GLFW = "*"}
+
+[Project]
+Name = "OpenGLPlatform"
+TargetType = "BeefLib"
+StartupObject = "OpenGLPlatform.Program"

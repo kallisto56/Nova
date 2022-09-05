@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {Game = {Path = "Game"}, Engine = {Path = "Engine"}, OpenGL = {Path = "OpenGL"}, GLFW = {Path = "Glfw"}, Imaging = {Path = "Imaging"}, Typography = {Path = "Typography"}, OpenGLPlatform = {Path = "OpenGLPlatform"}}
+
+[Workspace]
+StartupProject = "Game"

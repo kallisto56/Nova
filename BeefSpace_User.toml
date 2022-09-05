@@ -1,0 +1,106 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["Game\\src\\Program.bf", "Game\\src\\SoftwareShaders\\SplattingStage.bf", "Game\\src\\SoftwareShaders\\SortingStage.bf", "Game\\src\\SoftwareCompute\\SoftwareShader.bf", "Disassembly", "Disassembly", "Disassembly", "Disassembly"]
+
+[MainWindow]
+X = -1440
+Y = 0
+Width = 1414
+Height = 827
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 150.0
+RequestedHeight = 150.0
+SizePriority = 0.8303199
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 150.0
+RequestedHeight = 150.0
+SizePriority = 150.0
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "SplattingStage.bf"
+TabWidth = 129.0
+Type = "SourceViewPanel"
+FilePath = "Game\\src\\SoftwareShaders\\SplattingStage.bf"
+CursorPos = 701
+VertPos = 240.0
+ProjectName = "Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "SortingStage.bf"
+TabWidth = 120.0
+Type = "SourceViewPanel"
+FilePath = "Game\\src\\SoftwareShaders\\SortingStage.bf"
+CursorPos = 4046
+ProjectName = "Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "SoftwareShader.bf"
+TabWidth = 136.0
+Type = "SourceViewPanel"
+FilePath = "Game\\src\\SoftwareCompute\\SoftwareShader.bf"
+CursorPos = 652
+ProjectName = "Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Program.bf"
+TabWidth = 96.0
+Type = "SourceViewPanel"
+FilePath = "Game\\src\\Program.bf"
+CursorPos = 5781
+VertPos = 2592.0
+ProjectName = "Game"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 223.0
+RequestedHeight = 219.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 238.0
+RequestedHeight = 795.0
+SizePriority = 0.1585535
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 115.0
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 223.0
+RequestedHeight = 282.0
+SizePriority = 0.8414465
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.0
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+Type = "CallStackPanel"

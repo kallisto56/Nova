@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", OpenGL = "*"}
+
+[Project]
+Name = "Imaging"
+TargetType = "BeefLib"
+StartupObject = "Imaging.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/lib/stb_image.lib"]
