@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {"API.Glfw" = {Path = "."}, "External.Vulkan" = {Path = "../External.Vulkan"}}
+
+[Workspace]
+StartupProject = "API.Glfw"

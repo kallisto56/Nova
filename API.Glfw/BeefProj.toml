@@ -1,0 +1,18 @@
+FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*", corlib = "*", "API.Vulkan" = "*"}
+
+[Project]
+Name = "API.Glfw"
+TargetType = "BeefLib"
+StartupObject = "API.Glfw.Program"
+
+[Configs.Debug.Win64]
+OtherLinkFlags = "$(LinkFlags) gdi32.lib user32.lib kernel32.lib shell32.lib"
+LibPaths = ["$(ProjectDir)/dist/windows/glfw3_mt.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)/dist/windows/glfw3_mt.lib"]
+
+[Configs.Paranoid.Win64]
+OtherLinkFlags = "$(LinkFlags) gdi32.lib shell32.lib"
+LibPaths = ["$(ProjectDir)/dist/windows/glfw3_mt.lib"]

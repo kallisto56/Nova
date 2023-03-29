@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {"System.Engine" = {Path = "System.Engine"}, "test.Program" = {Path = "test.Program"}, "API.Vulkan" = {Path = "API.Vulkan"}, "System.Diagnostics" = {Path = "System.Diagnostics"}, "API.Glfw" = {Path = "API.Glfw"}}
+
+[Workspace]
+StartupProject = "test.Program"

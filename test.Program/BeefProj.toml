@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", "System.Engine" = "*"}
+
+[Project]
+Name = "test.Program"
+StartupObject = "test.Program.Test_VoxelDepthTest"

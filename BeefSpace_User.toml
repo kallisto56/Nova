@@ -1,0 +1,153 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["test.Program\\src\\CameraController.bf", "test.Program\\src\\test.VoxelDepthTest.bf", "System.Engine\\src\\Math\\Vector2.bf", "System.Engine\\src\\Windowing\\GLFW\\GlfwMouse.bf", "System.Engine\\src\\Input\\IMouse.bf", "System.Engine\\src\\CameraComponent.bf", "Disassembly", "System.Diagnostics\\src\\Tracy.bf", "Disassembly"]
+
+[MainWindow]
+X = -1610
+Y = -8
+Width = 1414
+Height = 827
+ShowKind = "ShowMaximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 450.0
+SizePriority = 250.0
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 150.0
+RequestedHeight = 150.0
+SizePriority = 150.0
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "test.VoxelDepthTest.bf"
+TabWidth = 159.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "test.Program\\src\\test.VoxelDepthTest.bf"
+CursorPos = 108
+ProjectName = "test.Program"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "CameraController.bf"
+TabWidth = 147.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "test.Program\\src\\CameraController.bf"
+CursorPos = 1030
+VertPos = 576.0
+ProjectName = "test.Program"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "IMouse.bf"
+TabWidth = 88.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "System.Engine\\src\\Input\\IMouse.bf"
+CursorPos = 214
+ProjectName = "System.Engine"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "GlfwMouse.bf"
+TabWidth = 110.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "System.Engine\\src\\Windowing\\GLFW\\GlfwMouse.bf"
+CursorPos = 1335
+ProjectName = "System.Engine"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Vector2.bf"
+TabWidth = 90.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "System.Engine\\src\\Math\\Vector2.bf"
+CursorPos = 207
+ProjectName = "System.Engine"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 166.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.0
+TabIsPinned = false
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+TabIsPinned = false
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.0
+TabIsPinned = false
+Type = "WatchPanel"
+Columns = [{Width = 271.0}, {Width = 753.0}, {Width = 200.0}]
+Items = ["vk", "GlfwMouse", "Self.voxels", ""]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto Watches"
+TabWidth = 130.0
+TabIsPinned = false
+Type = "AutoWatchPanel"
+Columns = [{Width = 394.0}, {Width = 200.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Tracy.bf"
+TabWidth = 75.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "System.Diagnostics\\src\\Tracy.bf"
+CursorPos = 3748
+ProjectName = "System.Diagnostics"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Errors"
+TabWidth = 86.0
+TabIsPinned = false
+Type = "ErrorsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Disassembly"
+TabWidth = 122.0
+TabIsPinned = false
+Type = "DisassemblyPanel"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 247.0
+RequestedHeight = 210.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 115.0
+TabIsPinned = false
+Type = "ProjectPanel"
+
+[[BookmarkFolders]]
+Title = ""

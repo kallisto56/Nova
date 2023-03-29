@@ -1,0 +1,100 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+
+[MainWindow]
+X = -1020
+Y = 67
+Width = 1020
+Height = 765
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 450.0
+SizePriority = 250.0
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 150.0
+RequestedHeight = 150.0
+SizePriority = 150.0
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 258.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 97.0
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 111.0
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.0
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.0
+Type = "WatchPanel"
+Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 242.0
+RequestedHeight = 553.0
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 200.0
+RequestedHeight = 553.0
+SizePriority = 0.7925466
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 115.0
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 1236.0
+RequestedHeight = 268.0
+SizePriority = 0.2074534
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Bookmarks"
+TabWidth = 114.0
+Type = "BookmarksPanel"
+
+[[BookmarkFolders]]
+Title = ""
